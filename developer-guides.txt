@@ -40,7 +40,8 @@ specific upyog ka detailed me explanation kiya gaya hai.
 200 OK
 => 200 OK successful HTTP requestes ke liye ek standard response hai.
 success ka specific meaning upyog ki gay HTTP method pe adhar hai.
-GET:
+GET: Client ke dvara ki gay request ka resource response fetched kar liya hai or response body me
+transmitted kiya gaya hai.
 
 
 3.Redirection
