@@ -4,5 +4,7 @@
 2.Successfully
 3.Redirection
 4.Client error
+=> Vah client error ke liye use hota hai, suppose kijiye client n login ke 
+liye password or user sahi nahi use kiya to vah client site chhe error generated hote hai.
 5.Server error 
 =>
