@@ -33,7 +33,16 @@ khaskar processing me kafi time lagta hai.
 
 
 2.Successfully
-=>
+=>Ye status code yah indicated karte hai ki client dvara ki gay request ko server ne successfully received kiya, samja or accepted kiya gaya hai
+ye code HTTP request me upyog ki gay method ke adhar par different prakar ki success ka signal dete hai. yaha samanya 2xx status code or unake
+specific upyog ka detailed me explanation kiya gaya hai.
+
+200 OK
+=> 200 OK successful HTTP requestes ke liye ek standard response hai.
+success ka specific meaning upyog ki gay HTTP method pe adhar hai.
+GET:
+
+
 3.Redirection
 4.Client error
 => Vah client error ke liye use hota hai, suppose kijiye client n login ke 
