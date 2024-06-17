@@ -18,8 +18,22 @@ request ko reject karne ki sambhavana rakhata hai! yah client or sever
 done ke liye bandwidth or resournces ko save karne me madad karta hai.
 
 101 Switching protocols:
-=>
+=>101 Switching protocols status code client ko indicate karta hai ki sever connection me
+estemal kiye ja rahe protocol ko change kar raha hai. Es code ka estemal tab kiya jata hai 
+jab client current collection ke liye estema kiye jane wale communication protocol ko change karna chahata hai.
+esake estemal aksar HTTP/1.1 se aise protocal par switch karne ke liye kiya jata hai jo better performance or additional feature
+provide karte hai, jaise ki WebSockets, HTTP/2 ya TLS/1.3
+
+102 Processing:
+=>Yah status code yah indicate karta hai ki server anhi ni request ko process kar raha hai.
+Esaka estemal yah indicate karne ke liya kiya jata hai jab client server ko request karta hai or
+server use request ko received karta hai or use process kar raha hai, lekin abhi tak koy response availabe nahi hai. Yah status code
+client ko time out hone or yah manne se rokane me madad karta hai ki request failed ho gaya hai. khas kar vaha use kiya jata hai jaha
+khaskar processing me kafi time lagta hai.
+
+
 2.Successfully
+=>
 3.Redirection
 4.Client error
 => Vah client error ke liye use hota hai, suppose kijiye client n login ke 
