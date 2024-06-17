@@ -1,0 +1,8 @@
+1.Information status code
+=> Serias ke code hote hai vah information
+
+2.Successfully
+3.Redirection
+4.Client error
+5.Server error 
+=>
