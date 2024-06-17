@@ -1,6 +1,24 @@
 1.Information status code
-=> Serias ke code hote hai vah information
+=>Information status code yah indicate karte hai ki
+server ne request ko received kar liya hai or use processing kar raha hai.
+In status code ka upyog request-response cycle ko starting stage me
+client or server ke bitch me communication karne ke liye kiya jata hai. 
+(100 to 199) ke Serias ke code hote hai vah information provide karte hai.
 
+100 continue
+=>Yah status code HTTP/1.1 protocol ka part hai or esaka estemal
+yah indicate dene ke liye kiya jata hai ki client ke request
+ka initial part received ho gaya hai or server dvara abhi tak
+rejected nahi kiya gaya hai. yah un paristiti me khas rup se 
+upyogi hai jaha client ko request body me ek large payload
+bhejane ki avskyata hoti hai. yah 100 continue status code ka
+estemal kiya jata hai. 100 continue status code Client ko ek badi request
+bhejane se rokane ke liye design kiya gaya hai, yadi server keval request header ke
+request ko reject karne ki sambhavana rakhata hai! yah client or sever
+done ke liye bandwidth or resournces ko save karne me madad karta hai.
+
+101 Switching protocols:
+=>
 2.Successfully
 3.Redirection
 4.Client error
